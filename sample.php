@@ -6,7 +6,7 @@
 
     function omikuji() {
         $fortune = ["大吉", "吉", "中吉", "小吉", "末吉", "凶"];
-        return $fortune[random_int(0, count($fortune) - 1)]; //なぜ-1...?
+        return $fortune[random_int(0, count($fortune) - 1)];
     }
 ?>
 <!DOCTYPE html>
